@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Login Successful",
+        "description": "",
+        "id": "login-functionality;login-successful",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9553745000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am in the login page of the Para Bank Application",
+            "match": {
+              "location": "LoginStep.i_am_in_the_login_page_of_the_Para_Bank_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2956474700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter valid credentials",
+            "match": {
+              "location": "LoginStep.i_enter_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1996770400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be taken to the Overview page",
+            "match": {
+              "location": "LoginStep.i_should_be_taken_to_the_Overview_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "In order to do internet banking\r\nAs a valid Para Bank customer\r\nI want to login successfully",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
