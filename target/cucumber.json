@@ -4,55 +4,73 @@
     "elements": [
       {
         "line": 6,
-        "name": "Login Successful",
+        "name": "Registration Successful",
         "description": "",
-        "id": "login-functionality;login-successful",
+        "id": "register;registration-successful",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 9553745000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 7,
-            "name": "I am in the login page of the Para Bank Application",
-            "match": {
-              "location": "LoginStep.i_am_in_the_login_page_of_the_Para_Bank_Application()"
-            },
+            "name": "I am in the home page of the Para Bank Application",
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2956474700,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 8,
-            "name": "I enter valid credentials",
-            "match": {
-              "location": "LoginStep.i_enter_valid_credentials()"
-            },
+            "name": "I click Register link",
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1996770400,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 9,
-            "name": "I should be taken to the Overview page",
-            "match": {
-              "location": "LoginStep.i_should_be_taken_to_the_Overview_page()"
+            "name": "I should be taken to the SignUP page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
             },
+            "line": 10,
+            "name": "I fill up registration info",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I click on Register button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "Registration will be successful",
+            "match": {},
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Login Functionality",
-    "description": "In order to do internet banking\r\nAs a valid Para Bank customer\r\nI want to login successfully",
-    "id": "login-functionality",
+    "name": "Register",
+    "description": "In order to do internet banking\r\nAs a valid Para Bank customer\r\nI want to register successfully first",
+    "id": "register",
     "keyword": "Feature",
-    "uri": "Login.feature"
+    "uri": "src/test/java/resources/Register.feature"
   }
 ]
